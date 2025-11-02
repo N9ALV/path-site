@@ -1,117 +1,196 @@
-2025-10-05T10:38:54.900Z	Initializing build environment...
-2025-10-05T10:39:01.792Z	Success: Finished initializing build environment
-2025-10-05T10:39:01.959Z	Cloning repository...
-2025-10-05T10:39:02.812Z	Detected the following tools from environment: pnpm@10.11.1, nodejs@22.16.0
-2025-10-05T10:39:02.813Z	Restoring from dependencies cache
-2025-10-05T10:39:02.816Z	Restoring from build output cache
-2025-10-05T10:39:02.922Z	Installing project dependencies: pnpm install --frozen-lockfile
-2025-10-05T10:39:03.869Z	Lockfile is up to date, resolution step is skipped
-2025-10-05T10:39:03.965Z	Progress: resolved 1, reused 0, downloaded 0, added 0
-2025-10-05T10:39:04.136Z	Packages: +1238
-2025-10-05T10:39:04.136Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-2025-10-05T10:39:04.968Z	Progress: resolved 1238, reused 0, downloaded 111, added 106
-2025-10-05T10:39:05.976Z	Progress: resolved 1238, reused 0, downloaded 384, added 375
-2025-10-05T10:39:06.985Z	Progress: resolved 1238, reused 0, downloaded 489, added 485
-2025-10-05T10:39:07.980Z	Progress: resolved 1238, reused 0, downloaded 762, added 758
-2025-10-05T10:39:08.984Z	Progress: resolved 1238, reused 0, downloaded 989, added 981
-2025-10-05T10:39:09.981Z	Progress: resolved 1238, reused 0, downloaded 1025, added 1019
-2025-10-05T10:39:10.981Z	Progress: resolved 1238, reused 0, downloaded 1038, added 1025
-2025-10-05T10:39:11.985Z	Progress: resolved 1238, reused 0, downloaded 1096, added 1089
-2025-10-05T10:39:12.988Z	Progress: resolved 1238, reused 0, downloaded 1109, added 1099
-2025-10-05T10:39:13.774Z	Progress: resolved 1238, reused 0, downloaded 1238, added 1238, done
-2025-10-05T10:39:13.774Z	Progress: resolved 1238, reused 0, downloaded 1238, added 1238, done
-2025-10-05T10:39:14.355Z	.../node_modules/@tailwindcss/oxide postinstall$ node ./scripts/install.js
-2025-10-05T10:39:45.146Z	.../sharp@0.33.5/node_modules/sharp install$ node install/check
-2025-10-05T10:39:45.148Z	.../sharp@0.34.4/node_modules/sharp install$ node install/check.js
-2025-10-05T10:39:45.148Z	.../esbuild@0.25.4/node_modules/esbuild postinstall$ node install.js
-2025-10-05T10:39:45.148Z	.../node_modules/workerd postinstall$ node install.js
-2025-10-05T10:39:45.307Z	.../node_modules/workerd postinstall: Done
-2025-10-05T10:39:45.307Z	.../esbuild@0.25.4/node_modules/esbuild postinstall: Done
-2025-10-05T10:39:45.307Z	.../node_modules/@tailwindcss/oxide postinstall: Done
-2025-10-05T10:39:45.337Z	.../sharp@0.33.5/node_modules/sharp install: Done
-2025-10-05T10:39:45.395Z	.../sharp@0.34.4/node_modules/sharp install: Done
-2025-10-05T10:39:47.812Z	
-2025-10-05T10:39:47.812Z	dependencies:
-2025-10-05T10:39:47.812Z	+ @eslint/eslintrc 3.3.1
-2025-10-05T10:39:47.813Z	+ @hookform/resolvers 3.10.0
-2025-10-05T10:39:47.813Z	+ @opennextjs/cloudflare 1.9.1
-2025-10-05T10:39:47.813Z	+ @radix-ui/react-accordion 1.2.12
-2025-10-05T10:39:47.813Z	+ @radix-ui/react-alert-dialog 1.1.15
-2025-10-05T10:39:47.814Z	+ @radix-ui/react-aspect-ratio 1.1.7
-2025-10-05T10:39:47.814Z	+ @radix-ui/react-avatar 1.1.10
-2025-10-05T10:39:47.814Z	+ @radix-ui/react-checkbox 1.3.3
-2025-10-05T10:39:47.814Z	+ @radix-ui/react-collapsible 1.1.12
-2025-10-05T10:39:47.815Z	+ @radix-ui/react-context-menu 2.2.16
-2025-10-05T10:39:47.815Z	+ @radix-ui/react-dialog 1.1.15
-2025-10-05T10:39:47.815Z	+ @radix-ui/react-dropdown-menu 2.1.16
-2025-10-05T10:39:47.815Z	+ @radix-ui/react-hover-card 1.1.15
-2025-10-05T10:39:47.816Z	+ @radix-ui/react-label 2.1.7
-2025-10-05T10:39:47.816Z	+ @radix-ui/react-menubar 1.1.16
-2025-10-05T10:39:47.816Z	+ @radix-ui/react-navigation-menu 1.2.14
-2025-10-05T10:39:47.816Z	+ @radix-ui/react-popover 1.1.15
-2025-10-05T10:39:47.819Z	+ @radix-ui/react-progress 1.1.7
-2025-10-05T10:39:47.820Z	+ @radix-ui/react-radio-group 1.3.8
-2025-10-05T10:39:47.820Z	+ @radix-ui/react-scroll-area 1.2.10
-2025-10-05T10:39:47.820Z	+ @radix-ui/react-select 2.2.6
-2025-10-05T10:39:47.820Z	+ @radix-ui/react-separator 1.1.7
-2025-10-05T10:39:47.820Z	+ @radix-ui/react-slider 1.3.6
-2025-10-05T10:39:47.820Z	+ @radix-ui/react-slot 1.2.3
-2025-10-05T10:39:47.820Z	+ @radix-ui/react-switch 1.2.6
-2025-10-05T10:39:47.820Z	+ @radix-ui/react-tabs 1.1.13
-2025-10-05T10:39:47.820Z	+ @radix-ui/react-toast 1.2.15
-2025-10-05T10:39:47.820Z	+ @radix-ui/react-toggle 1.1.10
-2025-10-05T10:39:47.820Z	+ @radix-ui/react-toggle-group 1.1.11
-2025-10-05T10:39:47.820Z	+ @radix-ui/react-tooltip 1.2.8
-2025-10-05T10:39:47.820Z	+ @react-three/drei 10.7.6
-2025-10-05T10:39:47.820Z	+ @react-three/fiber 9.3.0
-2025-10-05T10:39:47.820Z	+ @types/three 0.180.0
-2025-10-05T10:39:47.820Z	+ @vercel/analytics 1.3.1
-2025-10-05T10:39:47.820Z	+ autoprefixer 10.4.21
-2025-10-05T10:39:47.820Z	+ class-variance-authority 0.7.1
-2025-10-05T10:39:47.820Z	+ clsx 2.1.1
-2025-10-05T10:39:47.820Z	+ cmdk 1.0.4
-2025-10-05T10:39:47.820Z	+ date-fns 4.1.0
-2025-10-05T10:39:47.820Z	+ embla-carousel-react 8.5.1
-2025-10-05T10:39:47.820Z	+ expo 54.0.12
-2025-10-05T10:39:47.820Z	+ expo-asset 12.0.9
-2025-10-05T10:39:47.821Z	+ expo-file-system 19.0.16
-2025-10-05T10:39:47.821Z	+ expo-gl 16.0.7
-2025-10-05T10:39:47.821Z	+ geist 1.5.1
-2025-10-05T10:39:47.821Z	+ input-otp 1.4.1
-2025-10-05T10:39:47.821Z	+ leva 0.10.0
-2025-10-05T10:39:47.821Z	+ lucide-react 0.454.0
-2025-10-05T10:39:47.821Z	+ maath 0.10.8
-2025-10-05T10:39:47.821Z	+ next 15.4.7
-2025-10-05T10:39:47.821Z	+ next-themes 0.4.6
-2025-10-05T10:39:47.821Z	+ path 0.12.7
-2025-10-05T10:39:47.821Z	+ r3f-perf 7.2.3
-2025-10-05T10:39:47.821Z	+ react 19.2.0
-2025-10-05T10:39:47.821Z	+ react-day-picker 9.8.0
-2025-10-05T10:39:47.821Z	+ react-dom 19.2.0
-2025-10-05T10:39:47.821Z	+ react-hook-form 7.64.0
-2025-10-05T10:39:47.821Z	+ react-native 0.81.4
-2025-10-05T10:39:47.821Z	+ react-resizable-panels 2.1.9
-2025-10-05T10:39:47.821Z	+ recharts 2.15.4
-2025-10-05T10:39:47.821Z	+ sonner 1.7.4
-2025-10-05T10:39:47.821Z	+ tailwind-merge 2.6.0
-2025-10-05T10:39:47.821Z	+ tailwindcss-animate 1.0.7
-2025-10-05T10:39:47.821Z	+ three 0.180.0
-2025-10-05T10:39:47.821Z	+ url 0.11.4
-2025-10-05T10:39:47.821Z	+ vaul 1.1.2
-2025-10-05T10:39:47.821Z	+ zod 3.25.67
-2025-10-05T10:39:47.822Z	
-2025-10-05T10:39:47.822Z	devDependencies:
-2025-10-05T10:39:47.822Z	+ @tailwindcss/postcss 4.1.14
-2025-10-05T10:39:47.822Z	+ @types/node 22.18.8
-2025-10-05T10:39:47.822Z	+ @types/react 19.2.0
-2025-10-05T10:39:47.822Z	+ @types/react-dom 19.2.0
-2025-10-05T10:39:47.822Z	+ postcss 8.5.6
-2025-10-05T10:39:47.822Z	+ tailwindcss 4.1.14
-2025-10-05T10:39:47.822Z	+ tw-animate-css 1.3.3
-2025-10-05T10:39:47.822Z	+ typescript 5.9.3
-2025-10-05T10:39:47.822Z	+ wrangler 4.42.0
-2025-10-05T10:39:47.822Z	
-2025-10-05T10:39:47.839Z	Done in 44.5s
-2025-10-05T10:39:47.921Z	Executing user build command: opennextjs-cloudflare build
-2025-10-05T10:39:47.924Z	/bin/sh: 1: opennextjs-cloudflare: not found
-2025-10-05T10:39:47.928Z	Failed: error occurred while running build command
+2025-10-05T10:46:48.159Z	Initializing build environment...
+2025-10-05T10:46:58.769Z	Success: Finished initializing build environment
+2025-10-05T10:46:58.934Z	Cloning repository...
+2025-10-05T10:46:59.976Z	Restoring from dependencies cache
+2025-10-05T10:46:59.979Z	Restoring from build output cache
+2025-10-05T10:46:59.983Z	Detected the following tools from environment: pnpm@10.11.1, nodejs@22.16.0
+2025-10-05T10:47:00.055Z	Installing project dependencies: pnpm install --frozen-lockfile
+2025-10-05T10:47:01.033Z	Lockfile is up to date, resolution step is skipped
+2025-10-05T10:47:01.118Z	Progress: resolved 1, reused 0, downloaded 0, added 0
+2025-10-05T10:47:01.297Z	Packages: +1238
+2025-10-05T10:47:01.297Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-10-05T10:47:02.119Z	Progress: resolved 1238, reused 0, downloaded 96, added 93
+2025-10-05T10:47:03.126Z	Progress: resolved 1238, reused 0, downloaded 363, added 358
+2025-10-05T10:47:04.126Z	Progress: resolved 1238, reused 0, downloaded 430, added 422
+2025-10-05T10:47:05.133Z	Progress: resolved 1238, reused 0, downloaded 604, added 590
+2025-10-05T10:47:06.137Z	Progress: resolved 1238, reused 0, downloaded 910, added 904
+2025-10-05T10:47:07.138Z	Progress: resolved 1238, reused 0, downloaded 1015, added 1005
+2025-10-05T10:47:08.134Z	Progress: resolved 1238, reused 0, downloaded 1038, added 1026
+2025-10-05T10:47:09.135Z	Progress: resolved 1238, reused 0, downloaded 1039, added 1026
+2025-10-05T10:47:10.136Z	Progress: resolved 1238, reused 0, downloaded 1041, added 1032
+2025-10-05T10:47:11.137Z	Progress: resolved 1238, reused 0, downloaded 1110, added 1100
+2025-10-05T10:47:15.512Z	Progress: resolved 1238, reused 0, downloaded 1111, added 1100
+2025-10-05T10:47:16.512Z	Progress: resolved 1238, reused 0, downloaded 1202, added 1193
+2025-10-05T10:47:17.195Z	Progress: resolved 1238, reused 0, downloaded 1238, added 1238, done
+2025-10-05T10:47:17.521Z	.../node_modules/@tailwindcss/oxide postinstall$ node ./scripts/install.js
+2025-10-05T10:47:18.261Z	.../sharp@0.33.5/node_modules/sharp install$ node install/check
+2025-10-05T10:47:18.261Z	.../sharp@0.34.4/node_modules/sharp install$ node install/check.js
+2025-10-05T10:47:18.280Z	.../node_modules/workerd postinstall$ node install.js
+2025-10-05T10:47:18.323Z	.../esbuild@0.25.4/node_modules/esbuild postinstall$ node install.js
+2025-10-05T10:47:18.356Z	.../node_modules/@tailwindcss/oxide postinstall: Done
+2025-10-05T10:47:18.384Z	.../node_modules/workerd postinstall: Done
+2025-10-05T10:47:18.403Z	.../esbuild@0.25.4/node_modules/esbuild postinstall: Done
+2025-10-05T10:47:18.416Z	.../sharp@0.34.4/node_modules/sharp install: Done
+2025-10-05T10:47:18.420Z	.../sharp@0.33.5/node_modules/sharp install: Done
+2025-10-05T10:47:19.052Z	
+2025-10-05T10:47:19.053Z	dependencies:
+2025-10-05T10:47:19.053Z	+ @eslint/eslintrc 3.3.1
+2025-10-05T10:47:19.053Z	+ @hookform/resolvers 3.10.0
+2025-10-05T10:47:19.053Z	+ @opennextjs/cloudflare 1.9.1
+2025-10-05T10:47:19.053Z	+ @radix-ui/react-accordion 1.2.12
+2025-10-05T10:47:19.053Z	+ @radix-ui/react-alert-dialog 1.1.15
+2025-10-05T10:47:19.053Z	+ @radix-ui/react-aspect-ratio 1.1.7
+2025-10-05T10:47:19.053Z	+ @radix-ui/react-avatar 1.1.10
+2025-10-05T10:47:19.053Z	+ @radix-ui/react-checkbox 1.3.3
+2025-10-05T10:47:19.053Z	+ @radix-ui/react-collapsible 1.1.12
+2025-10-05T10:47:19.053Z	+ @radix-ui/react-context-menu 2.2.16
+2025-10-05T10:47:19.053Z	+ @radix-ui/react-dialog 1.1.15
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-dropdown-menu 2.1.16
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-hover-card 1.1.15
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-label 2.1.7
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-menubar 1.1.16
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-navigation-menu 1.2.14
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-popover 1.1.15
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-progress 1.1.7
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-radio-group 1.3.8
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-scroll-area 1.2.10
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-select 2.2.6
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-separator 1.1.7
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-slider 1.3.6
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-slot 1.2.3
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-switch 1.2.6
+2025-10-05T10:47:19.054Z	+ @radix-ui/react-tabs 1.1.13
+2025-10-05T10:47:19.057Z	+ @radix-ui/react-toast 1.2.15
+2025-10-05T10:47:19.057Z	+ @radix-ui/react-toggle 1.1.10
+2025-10-05T10:47:19.057Z	+ @radix-ui/react-toggle-group 1.1.11
+2025-10-05T10:47:19.057Z	+ @radix-ui/react-tooltip 1.2.8
+2025-10-05T10:47:19.057Z	+ @react-three/drei 10.7.6
+2025-10-05T10:47:19.057Z	+ @react-three/fiber 9.3.0
+2025-10-05T10:47:19.057Z	+ @types/three 0.180.0
+2025-10-05T10:47:19.057Z	+ @vercel/analytics 1.3.1
+2025-10-05T10:47:19.057Z	+ autoprefixer 10.4.21
+2025-10-05T10:47:19.057Z	+ class-variance-authority 0.7.1
+2025-10-05T10:47:19.057Z	+ clsx 2.1.1
+2025-10-05T10:47:19.057Z	+ cmdk 1.0.4
+2025-10-05T10:47:19.057Z	+ date-fns 4.1.0
+2025-10-05T10:47:19.058Z	+ embla-carousel-react 8.5.1
+2025-10-05T10:47:19.058Z	+ expo 54.0.12
+2025-10-05T10:47:19.058Z	+ expo-asset 12.0.9
+2025-10-05T10:47:19.058Z	+ expo-file-system 19.0.16
+2025-10-05T10:47:19.058Z	+ expo-gl 16.0.7
+2025-10-05T10:47:19.058Z	+ geist 1.5.1
+2025-10-05T10:47:19.058Z	+ input-otp 1.4.1
+2025-10-05T10:47:19.059Z	+ leva 0.10.0
+2025-10-05T10:47:19.059Z	+ lucide-react 0.454.0
+2025-10-05T10:47:19.059Z	+ maath 0.10.8
+2025-10-05T10:47:19.059Z	+ next 15.4.7
+2025-10-05T10:47:19.059Z	+ next-themes 0.4.6
+2025-10-05T10:47:19.059Z	+ path 0.12.7
+2025-10-05T10:47:19.059Z	+ r3f-perf 7.2.3
+2025-10-05T10:47:19.059Z	+ react 19.2.0
+2025-10-05T10:47:19.059Z	+ react-day-picker 9.8.0
+2025-10-05T10:47:19.059Z	+ react-dom 19.2.0
+2025-10-05T10:47:19.059Z	+ react-hook-form 7.64.0
+2025-10-05T10:47:19.059Z	+ react-native 0.81.4
+2025-10-05T10:47:19.059Z	+ react-resizable-panels 2.1.9
+2025-10-05T10:47:19.059Z	+ recharts 2.15.4
+2025-10-05T10:47:19.059Z	+ sonner 1.7.4
+2025-10-05T10:47:19.059Z	+ tailwind-merge 2.6.0
+2025-10-05T10:47:19.059Z	+ tailwindcss-animate 1.0.7
+2025-10-05T10:47:19.059Z	+ three 0.180.0
+2025-10-05T10:47:19.059Z	+ url 0.11.4
+2025-10-05T10:47:19.059Z	+ vaul 1.1.2
+2025-10-05T10:47:19.059Z	+ zod 3.25.67
+2025-10-05T10:47:19.059Z	
+2025-10-05T10:47:19.059Z	devDependencies:
+2025-10-05T10:47:19.059Z	+ @tailwindcss/postcss 4.1.14
+2025-10-05T10:47:19.059Z	+ @types/node 22.18.8
+2025-10-05T10:47:19.060Z	+ @types/react 19.2.0
+2025-10-05T10:47:19.060Z	+ @types/react-dom 19.2.0
+2025-10-05T10:47:19.060Z	+ postcss 8.5.6
+2025-10-05T10:47:19.060Z	+ tailwindcss 4.1.14
+2025-10-05T10:47:19.060Z	+ tw-animate-css 1.3.3
+2025-10-05T10:47:19.060Z	+ typescript 5.9.3
+2025-10-05T10:47:19.060Z	+ wrangler 4.42.0
+2025-10-05T10:47:19.060Z	
+2025-10-05T10:47:19.076Z	Done in 18.6s
+2025-10-05T10:47:19.188Z	Executing user build command: npx opennextjs-cloudflare build
+2025-10-05T10:47:22.099Z	
+2025-10-05T10:47:22.099Z	┌─────────────────────────────┐
+2025-10-05T10:47:22.099Z	│ OpenNext — Cloudflare build │
+2025-10-05T10:47:22.099Z	└─────────────────────────────┘
+2025-10-05T10:47:22.099Z	
+2025-10-05T10:47:22.201Z	App directory: /opt/buildhome/repo
+2025-10-05T10:47:22.201Z	Next.js version : 15.4.7
+2025-10-05T10:47:22.201Z	@opennextjs/cloudflare version: 1.9.1
+2025-10-05T10:47:22.201Z	@opennextjs/aws version: 3.8.0
+2025-10-05T10:47:22.203Z	
+2025-10-05T10:47:22.203Z	┌─────────────────────────────────┐
+2025-10-05T10:47:22.203Z	│ OpenNext — Building Next.js app │
+2025-10-05T10:47:22.203Z	└─────────────────────────────────┘
+2025-10-05T10:47:22.203Z	
+2025-10-05T10:47:22.573Z	
+2025-10-05T10:47:22.573Z	> my-v0-project@0.1.0 build /opt/buildhome/repo
+2025-10-05T10:47:22.573Z	> next build
+2025-10-05T10:47:22.573Z	
+2025-10-05T10:47:23.163Z	⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2025-10-05T10:47:23.170Z	Attention: Next.js now collects completely anonymous telemetry regarding usage.
+2025-10-05T10:47:23.171Z	This information is used to shape Next.js' roadmap and prioritize features.
+2025-10-05T10:47:23.171Z	You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+2025-10-05T10:47:23.171Z	https://nextjs.org/telemetry
+2025-10-05T10:47:23.171Z	
+2025-10-05T10:47:23.232Z	   ▲ Next.js 15.4.7
+2025-10-05T10:47:23.233Z	
+2025-10-05T10:47:23.288Z	   Creating an optimized production build ...
+2025-10-05T10:47:24.120Z	Using vars defined in .dev.vars
+2025-10-05T10:47:25.072Z	Using vars defined in .dev.vars
+2025-10-05T10:47:35.740Z	Using vars defined in .dev.vars
+2025-10-05T10:47:37.553Z	Using vars defined in .dev.vars
+2025-10-05T10:47:44.818Z	 ✓ Compiled successfully in 17.0s
+2025-10-05T10:47:44.822Z	   Skipping validation of types
+2025-10-05T10:47:44.822Z	   Skipping linting
+2025-10-05T10:47:45.116Z	   Collecting page data ...
+2025-10-05T10:47:47.563Z	   Generating static pages (0/5) ...
+2025-10-05T10:47:48.357Z	   Generating static pages (1/5) 
+2025-10-05T10:47:48.357Z	   Generating static pages (2/5) 
+2025-10-05T10:47:48.358Z	   Generating static pages (3/5) 
+2025-10-05T10:47:48.358Z	 ✓ Generating static pages (5/5)
+2025-10-05T10:47:48.909Z	   Finalizing page optimization ...
+2025-10-05T10:47:48.909Z	   Collecting build traces ...
+2025-10-05T10:48:08.586Z	
+2025-10-05T10:48:08.588Z	Route (app)                                 Size  First Load JS
+2025-10-05T10:48:08.588Z	┌ ○ /                                     298 kB         398 kB
+2025-10-05T10:48:08.588Z	└ ○ /_not-found                            997 B         101 kB
+2025-10-05T10:48:08.589Z	+ First Load JS shared by all            99.6 kB
+2025-10-05T10:48:08.589Z	  ├ chunks/4fe5acac-3c24a6364765f7b2.js  54.1 kB
+2025-10-05T10:48:08.589Z	  ├ chunks/976-3a9c36ee643c1efd.js       43.6 kB
+2025-10-05T10:48:08.589Z	  └ other shared chunks (total)          1.87 kB
+2025-10-05T10:48:08.589Z	
+2025-10-05T10:48:08.589Z	
+2025-10-05T10:48:08.589Z	○  (Static)  prerendered as static content
+2025-10-05T10:48:08.589Z	
+2025-10-05T10:48:08.689Z	
+2025-10-05T10:48:08.689Z	┌──────────────────────────────┐
+2025-10-05T10:48:08.689Z	│ OpenNext — Generating bundle │
+2025-10-05T10:48:08.689Z	└──────────────────────────────┘
+2025-10-05T10:48:08.689Z	
+2025-10-05T10:48:08.719Z	Bundling middleware function...
+2025-10-05T10:48:08.788Z	Bundling static assets...
+2025-10-05T10:48:08.801Z	Bundling cache assets...
+2025-10-05T10:48:08.807Z	Building server function: default...
+2025-10-05T10:48:14.165Z	Applying code patches: 5.009s
+2025-10-05T10:48:14.391Z	# copyPackageTemplateFiles
+2025-10-05T10:48:14.394Z	⚙️ Bundling the OpenNext server...
+2025-10-05T10:48:14.394Z	
+2025-10-05T10:48:16.107Z	Worker saved in `.open-next/worker.js` 🚀
+2025-10-05T10:48:16.107Z	
+2025-10-05T10:48:16.109Z	OpenNext build complete.
+2025-10-05T10:48:16.231Z	Success: Build command completed
+2025-10-05T10:48:16.232Z	Executing user deploy command: echo "Deployed"
+2025-10-05T10:48:16.235Z	Deployed
+2025-10-05T10:48:16.236Z	Success: Deploy command completed
+2025-10-05T10:48:16.238Z	Uploading to dependency cache
+2025-10-05T10:48:16.240Z	Uploading to build output cache
+2025-10-05T10:48:18.004Z	Success: Build output uploaded to build cache.
+2025-10-05T10:48:26.894Z	Success: Dependencies uploaded to build cache.
+2025-10-05T10:48:27.109Z	✨ Success! Build completed.

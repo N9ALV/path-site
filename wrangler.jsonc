@@ -22,6 +22,9 @@
       "service": "pathgdn"
     }
   ],
+  "vars": {
+    "NEXTJS_ENV": "production"
+  },
   "r2_buckets": [
     // Create a R2 binding with the binding name "NEXT_INC_CACHE_R2_BUCKET"
     // Uncomment and configure if you want to use R2 for Next.js caching
