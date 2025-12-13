@@ -11,11 +11,15 @@ pnpm install
 Create a `.env.local` file in the project root with your Cloudflare credentials:
 
 **Authentication Types:**
-- **Scoped API Tokens (Recommended)**: Use for zone-specific operations. Requires Zone Rulesets: Edit, Zone Cache Rules: Edit scopes.
+- **OAuth (Strongly Recommended - December 2025)**: Run `npx wrangler login` for interactive authentication. No token management required and most reliable for deployment.
+- **Scoped API Tokens (Available)**: Use for zone-specific operations. Requires Zone Rulesets: Edit, Zone Cache Rules: Edit scopes.
 - **Global API Key**: Use for account-wide operations. Set both email and key.
 
 ```env
-# Recommended for production/development
+# Recommended for development (OAuth preferred)
+# Run: npx wrangler login
+
+# Alternative: Scoped API Tokens
 CLOUDFLARE_API_TOKEN=your-scoped-api-token
 
 # Alternative (legacy)
